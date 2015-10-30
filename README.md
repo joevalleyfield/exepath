@@ -37,7 +37,8 @@ successors. We intend this dedication to be an overt act of relinquishment
 in perpetuity of all present and future rights to this code under copyright
 law. 
 
-This project includes catch-based tests and a snapshot of catch.hpp.
+This project includes [Catch](https://github.com/philsquared/Catch)-based tests
+and a snapshot of catch.hpp.
 
 Catch has the following license:
 
