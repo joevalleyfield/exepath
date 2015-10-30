@@ -2,6 +2,8 @@
 
 This bit of code finds an object file (exe or dll) on Windows/Mac/Linux.
 
+It's like the c equivalent of 'scriptpath' in many scripting languages.
+
 It is packaged here with a CMake build and a couple of unit tests, but is 
 really meant to be extracted and used however you see fit.
 
