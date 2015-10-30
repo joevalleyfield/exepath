@@ -5,6 +5,10 @@ cmake_minimum_required(VERSION 3.3)
 add_library(exepath SHARED
   exepath.h exepath.cpp)
 
+set_target_properties(exepath
+  PROPERTIES COMPILE_DEFINITIONS "BUILDING_EXEPATH"
+)
+
 enable_testing()
 
 add_executable(test_exepath
