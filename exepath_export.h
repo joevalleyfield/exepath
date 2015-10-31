@@ -1,7 +1,7 @@
 #ifndef exepath_export_h
 #define exepath_export_h
 
-#ifdef WIN32
+#ifdef _WIN32
 #  ifdef EXEPATH_STATIC_DEFINE
 #    define EXEPATH_EXPORT
 #  else
